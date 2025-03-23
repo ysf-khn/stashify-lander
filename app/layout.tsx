@@ -15,6 +15,26 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Stashify",
   description: "Simplify Your Inventory. Grow Your Business.",
+  openGraph: {
+    title: "Stashify",
+    description: "Simplify Your Inventory. Grow Your Business.",
+    url: "https://stashify.weekendlabs.in",
+    type: "website",
+    images: [
+      {
+        url: "https://stashify.weekendlabs.in/screenshot.png",
+        width: 1200,
+        height: 630,
+        alt: "Stashify App Screenshot",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Stashify",
+    description: "Simplify Your Inventory. Grow Your Business.",
+    images: ["https://stashify.weekendlabs.in/screenshot.png"],
+  },
 };
 
 export default function RootLayout({
